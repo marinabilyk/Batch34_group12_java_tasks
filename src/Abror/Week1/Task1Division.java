@@ -6,6 +6,6 @@ public class Task1Division {
 int a,b;
 a = 20;
 b = 3;
-
+//
     }
 }
