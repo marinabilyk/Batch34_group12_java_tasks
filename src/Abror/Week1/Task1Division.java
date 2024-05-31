@@ -3,17 +3,24 @@ package Abror.Week1;
 public class Task1Division {
     public static void main(String[] args) {
         //Write a method that can divide two numbers without using division operator
-        int a = 20,
-        b= 5;
-        int d=0;
+ division(15,0);
+    }
+    public static void division(int num1, int num2){
 
-        while ( a-b >= 0){
+    if (num2 == 0){
+    System.out.println("Invalid number");
+    return;
+}
+        int count=0;
+        System.out.print(num1 +" divided by "+num2 +" is: ");
+        while ( num1-num2 >= 0){
 
-            a = a - b;
-            ++d;
+            num1 = num1 - num2;
+            ++count;
         }
 
-        System.out.println(d);
+
+        System.out.println(count+" and remainder is "+num1);
 
     }
 }
