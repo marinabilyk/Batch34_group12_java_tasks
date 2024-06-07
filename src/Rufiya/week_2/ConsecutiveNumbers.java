@@ -10,6 +10,7 @@ public class ConsecutiveNumbers {
     public static void consecutiveNumbers (int n){
 
         for(int i = 1; i <= n; i++){
+
             String result = "";
 
             if(i % 2 == 0){
